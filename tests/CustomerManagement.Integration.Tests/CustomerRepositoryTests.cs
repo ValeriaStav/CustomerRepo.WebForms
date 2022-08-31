@@ -1,9 +1,7 @@
 using CustomerManagement.BusinessEntities;
 using CustomerManagement.Repositories;
 using FluentAssertions;
-<<<<<<< HEAD
-=======
->>>>>>> 55af087ba15cd47183909f44f5ac283aea057b24
+using Xunit;
 
 namespace CustomerManagement.Integration.Tests
 {

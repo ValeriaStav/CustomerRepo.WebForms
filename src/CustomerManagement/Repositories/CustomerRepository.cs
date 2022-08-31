@@ -178,7 +178,7 @@ namespace CustomerManagement.Repositories
                 {
                     while (reader.Read())
                     {
-                        customers.Add(new Customer
+                        customers.Add(new Customer 
                         {
                             CustomerId = Convert.ToInt32(reader["CustomerId"]),
                             FirstName = reader["FirstName"].ToString(),
