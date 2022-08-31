@@ -1,8 +1,6 @@
 ﻿using CustomerManagement.BusinessEntities;
 using CustomerManagement.Repositories;
-<<<<<<< HEAD
-=======
->>>>>>> 55af087ba15cd47183909f44f5ac283aea057b24
+
 
 namespace CustomerManagement.Integration.Tests
 {
@@ -41,13 +39,10 @@ namespace CustomerManagement.Integration.Tests
         public void ShouldBeAbleToReadAddress()
         {
             Fixture.DeleteAll();
-<<<<<<< HEAD
+
             var addressCustomer = Fixture.CreateAddresRepository().Read("1");
             Assert.Equal(1, addressCustomer.AddressId);
-=======
-            var addressCustomer = Fixture.CreateAddresRepository().Read("10");
-            Assert.Equal(10, addressCustomer.AddressId);
->>>>>>> 55af087ba15cd47183909f44f5ac283aea057b24
+
             Assert.Equal("First line", addressCustomer.AddressLine);
         }
 

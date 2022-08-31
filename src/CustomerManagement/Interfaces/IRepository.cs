@@ -9,6 +9,6 @@ namespace CustomerManagement.Interfaces
         void Update(TEntity entity);
         void Delete(int entity);
         List<TEntity> GetAll();
-        void DeleteAll();
+        void DeleteAll(); 
     }
 }

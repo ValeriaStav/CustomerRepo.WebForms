@@ -2,7 +2,12 @@
 using CustomerManagement.Interfaces;
 using CustomerManagement.Repositories;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace CustomerRepo.WebForms
 {
@@ -48,11 +53,12 @@ namespace CustomerRepo.WebForms
                 CustomerEmail = customerEmail.Text,
                 TotalPurchaseAmount = Convert.ToDecimal(totalPurchaseAmount?.Text)
             };
+
             if (Convert.ToInt32(Request.QueryString["customerId"]) == 0)
             {
                 _customerRepository.Create(customer);
             }
-            else
+            else 
             {
                 _customerRepository.Update(customer);
             }
