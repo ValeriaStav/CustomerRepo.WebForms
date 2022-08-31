@@ -12,7 +12,7 @@
                 <th class="text-center">Email</th>
                 <th class="text-right">Total Purchases Amount</th>
                 <th class="text-center"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></th>
-                <th class="text-center"><a class="btn btn-info" href="CustomerDeleteAll.aspx">Delete All</a></th>
+                <th class="text-center"><a class="btn btn-danger" href="CustomerDeleteAll.aspx">Delete All</a></th>
             </tr>
         </thead>
 

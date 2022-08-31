@@ -15,7 +15,7 @@
                 <th class="text-center">State</th>
                 <th class="text-center">Country</th>
                 <th class="text-center"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></th>
-                <th class="text-center"><a class="btn btn-info" href="AddressDeleteAll.aspx">Delete All</a></th>
+                <th class="text-center"><a class="btn btn-danger" href="AddressDeleteAll.aspx">Delete All</a></th>
             </tr>
         </thead>
         <tbody>
